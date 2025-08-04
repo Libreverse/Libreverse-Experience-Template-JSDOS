@@ -116,7 +116,17 @@ The system automatically inlines these JS-DOS components:
 
 ## Deployment
 
-The single HTML file can be deployed anywhere:
+The single HTML file is designed to be uploaded to the Libreverse platform:
+
+```bash
+# Build your DOS experience
+bun run build
+
+# Upload dist/index.html to Libreverse platform
+# The built file contains everything needed for offline operation
+```
+
+The generated HTML file can also be deployed to any static hosting service:
 
 ```bash
 # Deploy to static hosting
@@ -125,10 +135,8 @@ cp dist/index.html /var/www/html/
 # Upload to CDN
 aws s3 cp dist/index.html s3://your-bucket/
 
-# Serve from GitHub Pages
-git add dist/index.html
-git commit -m "Deploy DOS experience"  
-git push origin main
+# Or serve locally for testing
+bun run serve
 ```
 
 ## Project Features
