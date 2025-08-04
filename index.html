@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JS-DOS Libreverse Experience</title>
+
+    <!-- js-dos style sheet -->
+    <link rel="stylesheet" href="https://v8.js-dos.com/latest/js-dos.css">
+    
+    <!-- js-dos -->
+    <script src="https://v8.js-dos.com/latest/js-dos.js"></script>
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            width: 100vw;
+            height: 100vh;
+            overflow: hidden;
+        }
+        #dos {
+            width: 100vw;
+            height: 60vw;
+            max-width: 100vw;
+            max-height: 100vh;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <div id="dos"></div>
+
+    <script>
+        Dos(document.getElementById("dos"), {
+            url: "/doom_shareware.jsdos",
+        });
+    </script>
+</body>
+</html>

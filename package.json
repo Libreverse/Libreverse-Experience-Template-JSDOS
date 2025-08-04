@@ -1,0 +1,47 @@
+{
+  "name": "libreverse-experience-template-jsdos",
+  "version": "1.0.0",
+  "description": "A template for creating MS-DOS code experiences using JS-DOS emulation. Builds to a single, completely offline HTML file.",
+  "type": "module",
+  "scripts": {
+    "dev": "npx vite",
+    "build": "npx vite build",
+    "preview": "npx vite preview",
+    "serve": "npx vite preview --port 8080",
+    "install": "npm install"
+  },
+  "keywords": [
+    "js-dos",
+    "dos",
+    "dosbox",
+    "emulator",
+    "games",
+    "retro",
+    "wasm",
+    "offline",
+    "single-file",
+    "vite",
+    "template",
+    "libreverse"
+  ],
+  "author": "George Hotz",
+  "license": "AGPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/[YOUR-ORG]/libreverse-experience-template-jsdos.git"
+  },
+  "homepage": "https://github.com/[YOUR-ORG]/libreverse-experience-template-jsdos#readme",
+  "bugs": {
+    "url": "https://github.com/[YOUR-ORG]/libreverse-experience-template-jsdos/issues"
+  },
+  "devDependencies": {
+    "cssnano": "^7.0.0",
+    "cssnano-preset-advanced": "7.0.8",
+    "htmlnano": "^2.1.0",
+    "lightningcss": "^1.22.0",
+    "posthtml": "^0.16.0",
+    "terser": "^5.24.0",
+    "vite": "^5.0.0",
+    "vite-plugin-singlefile": "^2.0.0"
+  }
+}
