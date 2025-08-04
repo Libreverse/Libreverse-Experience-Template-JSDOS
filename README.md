@@ -23,7 +23,7 @@ A template for creating MS-DOS code experiences using JS-DOS emulation. This tem
 
 1. **Clone the repository:**
    ```bash
-   git clone [repository-url]
+   git clone https://github.com/Libreverse/libreverse-experience-template-jsdos.git
    cd libreverse-experience-template-jsdos
    ```
 
