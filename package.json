@@ -41,7 +41,7 @@
     "lightningcss": "^1.22.0",
     "posthtml": "^0.16.0",
     "terser": "^5.24.0",
-    "vite": "^5.0.0",
+    "vite": "^7.0.6",
     "vite-plugin-singlefile": "^2.0.0"
   }
 }
